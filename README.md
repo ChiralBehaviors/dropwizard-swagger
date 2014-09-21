@@ -15,13 +15,9 @@ http://www.apache.org/licenses/LICENSE-2.0
 How to use it
 -------------
 
-* Add the Maven dependency (__now available in Maven Central!__)
+* Add the Maven dependency 
 
-        <dependency>
-            <groupId>io.federecio</groupId>
-            <artifactId>dropwizard-swagger</artifactId>
-            <version>0.5.1</version>
-        </dependency>
+	//TODO
 
 
 * In your Application class:
@@ -69,10 +65,3 @@ There might be a few cases where you want to set the host name to which Swagger 
 			swaggerDropwizard.onRun(configuration, environment, "your_host_here");
 		}
 
-Contributors
-------------
-
-* Federico Recio [@federecio](http://twitter.com/federecio)
-* Jochen Szostek [prefabsoft] (http://prefabsoft.com)
-* Damien Raude-Morvan [drazzib] (https://github.com/drazzib)
-* Marcel Stör [marcelstoer] (https://github.com/marcelstoer)
