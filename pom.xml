@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.federecio</groupId>
+    <groupId>com.chiralbehaviors</groupId>
     <artifactId>dropwizard-swagger</artifactId>
     <version>0.5.2-SNAPSHOT</version>
 
     <name>Dropwizard Swagger support</name>
     <description>A simple way to document your REST APIs in DropWizard using Swagger</description>
-    <url>https://github.com/federecio/dropwizard-swagger/</url>
+    <url>https://github.com/chiralBehaviors/dropwizard-swagger/</url>
     <inceptionYear>2014</inceptionYear>
 
     <licenses>
@@ -21,8 +21,8 @@
 
     <developers>
         <developer>
-            <name>Federico Recio</name>
-            <url>http://about.me/federecio</url>
+            <name>Halloran Parry</name>
+            <email>halloran.parry@gmail.com</email>
         </developer>
     </developers>
 
@@ -39,12 +39,6 @@
         </repository>
     </distributionManagement>
 
-    <scm>
-        <connection>scm:git:git://github.com:federecio/dropwizard-swagger.git</connection>
-        <developerConnection>scm:git:git@github.com:federecio/dropwizard-swagger.git</developerConnection>
-        <url>http://github.com/federecio/dropwizard-swagger</url>
-        <tag>HEAD</tag>
-    </scm>
 
     <properties>
         <dropwizard.version>0.7.1</dropwizard.version>
